@@ -1,0 +1,281 @@
+body {
+       height: 100%;
+    
+    
+    }
+
+ /* navbar */     
+header .container {
+        text-align: center;
+       font-size: 18px;
+            
+}
+.navbar-inverse {
+    background-color: rgb(48,81,92);
+    }
+ 
+.navbar-toggle, .navbar-toggle,
+.navbar-toggle, .navbar-toggle:after {
+   margin-left:20px;
+  }
+       
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+   }
+
+ .navbar-inverse .navbar-nav > li > a:hover,
+ .navbar-inverse .navbar-nav > li > a:focus  {
+  outline: none;
+   }
+
+  .navbar-inverse .navbar-nav > li {
+    vertical-align: middle;
+    position: relative;
+    margin-top: auto;
+  }
+
+
+
+  @media screen and (max-width: 768px) {
+          .side-collapse-container{
+              width:100%;
+              position:relative;
+              left:0;
+              -webkit-transition:all ease .5s;
+              -moz-transition: all ease .5s;
+              -o-transition:all ease .5s;
+              transition:all ease .5s;
+          }
+          .side-collapse-container.out{
+              left:200px;
+          }
+          .side-collapse {
+              top:50px;
+              bottom:0;
+              left:0;
+              width:200px;
+              position:fixed;
+              overflow:hidden;
+              -webkit-transition:.4s;
+              -moz-transition: .4;
+              -o-transition:.4s;
+              transition:width .4s;
+          }
+          .side-collapse.in {
+              width:0;
+          }
+          }
+
+   /* Intro section*/   
+      
+.intro{
+  background: url(max-kaharlytskyi-88790-min.jpg);
+   background-position: static ;
+   background-repeat: no-repeat;
+    -webkit-background-size: 100% 100%;           
+     -moz-background-size: 100% 100%;           
+       -o-background-size: 100% 100%;           
+          background-size: 100% 100%;*  
+    background-size: 100% 100%;
+     background-attachment: fixed;
+     margin: 0px;
+    padding-top: 50px;
+  color:white;
+  text-align: center;
+ height: 120vh;
+}
+
+.intro p{
+  font-size: 50px;
+  font-family:'Kaushan Script', cursive;
+}
+
+.intro h3 {
+   font-family: 'Kaushan Script', cursive;
+}
+
+.intro li {
+  list-style: none;
+  display: inline;
+}
+
+  .intro li i {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: black;
+   padding-top: 10px;
+   border-radius: 50%;
+   margin-right: 30px;
+  
+    }
+
+  .intro li  a {
+    outline: none;
+  }
+#c-wrench{
+  border-color: white;
+  border: 1px solid white;
+  margin-top:4%;
+  padding: 30px;
+  border-radius:30%;
+ }
+ /* hr css*/
+ hr{
+    width: 30px;
+  }
+ .black{
+    border-color: #000000;
+  }
+   
+   /* Services section*/
+  .services{
+    background: url(servicesBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    }
+  
+  .services h1{
+   padding-top: 6%;
+   margin-top: 0;
+
+  font-family: 'Bungee Inline', cursive;
+  }
+  
+  .serviceimg{
+    height:200px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+  
+  .services p:last-of-type{
+    margin-bottom: 100px;    
+  }
+  #services-hr{
+    margin-bottom: 7%;
+  }
+
+  .services h3{
+    margin-top: 10%;
+    font-family: 'Bungee Inline', cursive;    
+  }
+  /* Our Work section*/
+
+  .ourWork{
+    padding-top: 6%;
+    text-align: center;
+    color: black;
+    background: white;
+    padding-bottom: 6%;
+  }
+  .ourWork h1{
+   font-family: 'Bungee Inline', cursive;
+   margin-top: 0;
+     }
+  .ourWork p{
+    font-size: 18px;
+    margin-bottom: 6%;
+  }
+  .workimg{
+    margin: 0;
+    padding: 0;
+    }
+
+  .work-img{
+    height: 100%;
+    width: 100%;
+  }  
+    
+ /*About us section */
+ 
+ .aboutsection{
+  background:  url(laura-gariglio-139735-min.jpg);
+  background-position:  left center;
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 100vh ;           
+     -moz-background-size: 100% 100vh ;           
+       -o-background-size: 100% 100vh ;
+  background-size: 100% 100vh ;
+  background-attachment: fixed;
+  text-align: center;
+}
+  .about{
+   padding-bottom: 50px;
+    text-align: center;
+    background-color: white;
+     margin-bottom: 8%;
+     margin-top: 8%;
+  }
+
+  .about p{
+        width: 60%;
+    margin-left: 20%;
+  }
+
+  .about h2 {
+    padding-top: 30px;
+   
+  }
+
+.aboutwrap{
+  background: url(bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#topwrap{
+  margin-bottom: 60vh;
+}
+
+#findUs {
+  text-align: left;
+}
+
+#findUs input{
+  width: 100%;
+  margin-bottom: 10px;
+}
+#findUs textarea{
+  width: 100%;
+}
+
+footer {
+  background-color: rgb(48,81,92);
+ margin-bottom: 0;
+ text-align: center;
+ height: 110px;
+}
+
+footer li {
+  list-style: none;
+  display: inline;
+    outline: none; 
+    }
+
+  footer li i {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    padding-top: 10px;
+    border-radius: 50%;
+    margin-right: 30px;
+    margin-top: 20px;
+     outline: none;
+  }
+
+footer  li a {
+    outline: none;
+
+  }
+  
+  footer p{
+    color: white;
+  }
